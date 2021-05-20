@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Order APP</title>
+
+    <style>
+        @media(max-width:630px){
+
+         #lorem {
+             margin-top: -140px;
+         }   
+         #lorem .lore{
+             font-size: 43px;
+             margin-top: 50px;
+         }
+         
+         #lorem #cartimg{
+             margin-top: 35px;
+         }
+        
+
+        
+        .wrapper .container  {
+            margin-left: 80px;
+            row-gap: 5px;
+            margin-top: 80px;
+           
+        }
+        
+        .container .bar1 {
+            margin-left: 10px;
+            margin-top: 50px;
+            width: 20px;
+            height: 5px;
+            background-color: pink;
+            transition: 0.4s;
+        }
+        .bar2 {
+            margin-left: 10px;
+            margin-top: 5px;
+            width: 35px;
+            height: 5px;
+            background-color: pink;
+            transition: 0.4s;
+        }
+        .bar3 {
+            margin-left: 10px;
+            margin-top: 5px;
+            width: 27px;
+            height: 5px;
+            background-color: pink;
+            transition: 0.4s;
+        }
+        .change .bar1 {
+          -webkit-transform: rotate(-45deg) translate(-9px, 9px);
+          transform: rotate(-45deg) translate(-9px, 6px);
+        }
+        
+        .change .bar2 {opacity: 0;}
+        
+        .change .bar3 {
+          -webkit-transform: rotate(45deg) translate(-8px, -8px);
+          transform: rotate(45deg) translate(-8px, -8px);
+        }}
+    </style>
+
+
+
+</head>
+<body>
+    
+
+    
+
+    
+    <script>
+        function myFunction(x) {
+          x.classList.toggle("change");
+        }
+    </script>
+      
+    <!--Wrapper-->
+    <div classs="wrapper">
+        <div class="container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+            
+
+            <!--Content of Left side of the webapge -->
+            <div class="col"> 
+                <h2 class="lore">Lorem</h2>
+                <h2 class="ips"> Ipsum</h2>
+
+
+
+
+
+                <!--Links-->
+                <div class="links" id="menu" onclick="myFunction(this)">
+                    <div><a href="#" class="about"><del><span>About</span></del></a></div>
+                    <div><a href="#" class="services">Services</a></div>
+                    <div><a href="#" class="cuisine">Cuisine</a></div>
+                    <div><a href="#" class="gallery">Gallery</a></div>
+                    <div><a href="#" class="contact">Contact</a></div>
+                    <div><a href="#" class="book">Book</a></div>
+                </div>
+
+            <!--Button to cart-->
+                <button class="cart" style="color: antiquewhite; font-size: 20px; font-family: sans-serif;">Cart</button>
+            </div>
+      
+
+        <div id="lorem">
+            <h2 class="lore" id="lori">Lorem</h2>
+            <a href="#"><img id="cartimg" src="./img/cart.png" width="50px" height="50px"/>
+            </a>
+        </div>
+
+
+        <!--Content of Right side of the webpage-->
+        
+        <div class="row1">
+            <h1>What are you</h1>
+            <h2>having for lunch?</h2>
+        </div>
+        <div class="def">
+            <h3>Lorem ipsum dolor sit amet </h3>
+            <h3>consectetur adipisicing elit,</h3>
+            <h3>sed do eiusmod tempor</h3>
+            <h3>incididunt ut labore et.</h3>
+            <hr style="display: block;">
+        </div>
+
+
+        <div class="row2">
+            <div class="tacos" style="width: 160px; height: 190px; background-color:white; border-radius: 20px;">
+                <img src="./img/taco1.jpg" style="width: 120px;" class="taco">
+                <h3 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="info1">Mexican Taco</h3>
+            </div>
+            <div class="pizza" style="width: 170px; height: 190px; background-color:white; border-radius: 20px;">
+                <img src="./img/pizza.jpg" style="width: 120px;" class="fpizza">
+                <h3 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="info2">Farmhouse Pizza</h3>
+            </div>
+            <div class="burg" style="width: 170px; height: 190px; background-color:white; border-radius: 20px;">
+                <img src="./img/burger.jpg" style="width: 120px;" class="burger">
+                <h3 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="info3">Chicken Burger</h3>
+            </div>
+            <div class="nacho" style="width: 170px; height: 190px; background-color:white; border-radius: 20px;">
+                <img src="./img/nachos.jpg" style="width: 120px;" class="nachos">
+                <h3 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="info4">Loaded Nachos</h3>
+            </div>
+
+            <div class="nood" style="width: 170px; height: 190px; background-color:white; border-radius: 20px;">
+                <img src="./img/noodles.jpg" style="width: 120px;" class="nodes">
+                <h3 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="info5">Hakka Noodles</h3>
+            </div>
+
+
+        </div>
+    </div>
+
+    
+</body>
+</html>

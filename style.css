@@ -1,0 +1,400 @@
+/* CSS for Coloumn i.e Left Side options*/ 
+
+.col .links {
+  display: inline-flex;
+  flex-direction: column;
+  row-gap: 240px;
+  /*background-color: rebeccapurple;*/
+ 
+}
+
+
+.lore{
+  margin-left: 70px;
+  
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.col .ips{
+  margin-top: -40px;
+  margin-left: 70px;
+  font-size: 40px;
+  
+}
+.col a{
+  font-size: 15px;
+  text-decoration: none;
+  font-family: sans-serif;
+  margin-top: 20px;
+  margin-left: 70px;
+  color: grey;
+}
+
+.col {
+  height: 100%;
+  width: 22%;
+  position: fixed;
+  z-index: 4;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #111;
+}
+
+.col .links{
+  row-gap: 45px;
+}
+.col .about span{
+  color: gray;
+}
+
+.col .about del{
+  color: red;
+}
+
+.col .cart{
+  font-family: 'Roboto', sans-serif;
+  font-size: 5px;
+  border: none;
+  border-radius: 0px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin-top: 40px;
+  margin-left: 80px;
+  margin-right: 100px;
+  margin-bottom: 25px;
+  background-color: #FE3F4B;
+  padding-right: 40px;
+  padding-left: 40px;
+  border-radius: 30px;
+  padding-top: 12px;
+  padding-bottom: 15px;
+}
+
+/*Right side content CSS*/
+
+
+/*ROW */
+.row1{
+  height: 70%;
+  width: 1220px;
+  position: absolute;
+  z-index: 0;
+  top: 0%;
+  left: 20%;
+  overflow-x: hidden;
+  padding-top: 20px;
+  /*background-color: blue;*/
+}
+
+.row1 h1{
+  margin-top: 120px;
+  margin-left: 30px;
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.row1 h2{
+  margin-top: -20px;
+  margin-left: 30px;
+  font-size: 70px;
+}
+
+.def hr{
+  border-radius: 20%;
+  background-color: #FE3F4B;
+  display: block;
+  padding-top: 2px;
+  margin-right: 550px;
+  
+}
+
+.def{
+ margin-left: 900px;
+ margin-top: 150px;
+ font-size: 12px;
+ color: gray;
+}
+
+
+
+/* Menu Food options*/
+/*tacos*/
+.row2 .tacos{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin-left: 350px;
+  margin-top: 200px;
+
+}
+
+.row2 .tacos .taco{
+  margin-top: 15px;
+  border-radius: 90px;
+  margin-left: 20px;
+  height: 120px;
+}
+
+.row2 .tacos .info1{
+  margin-top: 6px;
+  font-size: 15px;
+  margin-left: 30px;
+}
+
+
+/*Pizza*/
+
+.row2 .pizza{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin-left: 540px;
+  margin-top: -190px;
+
+}
+
+.row2 .pizza .fpizza{
+  margin-top: 15px;
+  border-radius: 90px;
+  margin-left: 20px;
+  height: 120px;
+}
+
+.row2 .pizza .info2{
+  margin-top: 6px;
+  font-size: 15px;
+  margin-left: 30px;
+}
+
+
+/*Burger*/
+
+.row2 .burg{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin-left: 740px;
+  margin-top: -190px;
+
+}
+
+.row2 .burg .burger{
+  margin-top: 15px;
+  border-radius: 90px;
+  margin-left: 20px;
+  height: 120px;
+}
+
+.row2 .burg .info3{
+  margin-top: 6px;
+  font-size: 15px;
+  margin-left: 30px;
+}
+
+
+/*Nachos*/
+
+.row2 .nacho{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin-left: 940px;
+  margin-top: -190px;
+
+}
+
+.row2 .nacho .nachos{
+  margin-top: 15px;
+  border-radius: 90px;
+  margin-left: 20px;
+  height: 120px;
+}
+
+.row2 .nacho .info4{
+  margin-top: 6px;
+  font-size: 15px;
+  margin-left: 30px;
+}
+
+/*Noodles*/
+
+.row2 .nood{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin-left: 1140px;
+  margin-top: -190px;
+
+}
+
+.row2 .nood .nodes{
+  margin-top: 15px;
+  border-radius: 90px;
+  margin-left: 20px;
+  height: 120px;
+}
+
+.row2 .nood .info5{
+  margin-top: 6px;
+  font-size: 15px;
+  margin-left: 30px;
+}
+
+
+#lorem{
+  display: none;
+}
+
+/*Responsive/Mobile Design*/
+
+@media(max-width: 630px) {
+  .wrapper .container{
+    margin-top: 200px;
+  }
+  
+  .col{
+    display: none;
+    width: 100px;
+  }
+
+  #lorem{
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 400px;
+    margin-top: -110px;
+    column-gap: 90px;
+  }
+  #lorem h2{
+    margin-left: -230px;
+    margin-top: 50px;
+  }
+  #lorem #cartimg{
+    margin-top: 50px;
+    margin-right: 100px;
+  }
+
+  .row1{
+    margin-left: -50px;
+  }
+
+  .row1 h1{
+    font-size: 30px;
+    margin-left: 20px;
+  }
+  
+  .row1 h2{
+    font-size: 30px;
+    margin-left: 20px;
+  }
+
+  .def{
+    margin-left: 80px;
+    margin-top: 600px;
+    font-size: 11px;
+    color: grey;
+    font-family: sans-serif;
+  }
+
+
+  .def hr{
+    border-radius: 20%;
+    background-color: #FE3F4B;
+    display: block;
+    padding-top: 2px;
+    margin-right: 350px;
+    
+  }
+
+  .row2 .tacos{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    margin-left: 70px;
+    margin-top: -580px;
+  
+  }
+  
+  .row2 .tacos .taco{
+    width: 20px;
+    margin-top: 15px;
+    border-radius: 90px;
+    margin-left: 20px;
+    height: 120px;
+  }
+  
+  .row2 .tacos .info1{
+    margin-top: 6px;
+    font-size: 15px;
+    margin-left: 30px;
+  }
+
+  .row2 .pizza{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    margin-left: 250px;
+    margin-top: -190px;
+  
+  }
+  
+  .row2 .pizza .fpizza{
+    margin-top: 15px;
+    border-radius: 90px;
+    margin-left: 20px;
+    height: 120px;
+  }
+  
+  .row2 .pizza .info2{
+    margin-top: 6px;
+    font-size: 15px;
+    margin-left: 30px;
+  }
+
+
+  .row2 .burg{
+    width: 160px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    margin-left: 60px;
+    margin-top: 40px;
+  
+  }
+  
+  .row2 .burg .burger{
+    margin-top: 15px;
+    border-radius: 90px;
+    margin-left: 20px;
+    height: 120px;
+  }
+  
+  .row2 .burg .info3{
+    margin-top: 6px;
+    font-size: 15px;
+    margin-left: 30px;
+  }
+
+
+  .row2 .nacho{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    margin-left: 250px;
+    margin-top: -190px;
+  
+  }
+  
+  .row2 .nacho .nachos{
+    margin-top: 15px;
+    border-radius: 90px;
+    margin-left: 20px;
+    height: 120px;
+  }
+  
+  .row2 .nacho .info4{
+    margin-top: 6px;
+    font-size: 15px;
+    margin-left: 30px;
+  }
+  .row2 .nood{
+    display: none;
+  }
+  
+  
+
+  
+
+
+}
+
+
+
